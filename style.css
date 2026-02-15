@@ -1,0 +1,157 @@
+body {
+    font-family: Arial;
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: bold;
+}
+
+/* الهيدر */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #000000, rgb(2, 2, 2));
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 90px;
+}
+
+/* اللوجو واسمك */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.logo .name h1 {
+    font-size: 22px;
+    color: #00eeff;
+    margin: 0;
+}
+
+.logo .name p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 2px 0 0 0;
+}
+
+/* مربع التواصل على اليمين */
+.contact a {
+    background-color: #00eeff;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* يخليهم في النص */
+    gap: 20px;
+}
+
+/* الكارد */
+.item {
+    width: 40%; /* الحجم اللي انت عايزه */
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #e0fdff;
+    display: flex;
+    flex-direction: column; /* يخلي الصورة فوق */
+    align-items: center;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("bbb.jpg");
+    background-position: center;  /* تركز في النص */
+    height: 100vh;                /* تغطي كل طول الشاشة */
+    margin: 0;                    /* تلغي أي مسافات افتراضية */
+}
+
+/* الصورة فوق */
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* النص */
+.item span {
+    font-size: 18px;
+}
+
+/* hover */
+.item:hover {
+    background: #00eeff;
+    color: black;
+    transform: scale(1.05);
+}
+
+.h1 {
+    color: #00eeff;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 30px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;  /* المسافة من تحت */
+    right: 20px;   /* المسافة من اليمين */
+    width: 70px;
+    height: 70px;
+    z-index: 1000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.whatsapp-btn img {
+    width: 35px;
+    height: 35px;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+
+.footer-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+
+.copyright {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
+
+.copyright .link {
+  display: inline;
+  color: var(--gold-crayola);
+  text-decoration: underline;
+}
