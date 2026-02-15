@@ -73,7 +73,7 @@ header {
 
 /* الكارد */
 .item {
-    width: 40%; /* الحجم اللي انت عايزه */
+    width: 50%; /* الحجم اللي انت عايزه */
     background: #1a1a1a;
     padding: 15px;
     border-radius: 15px;
@@ -134,8 +134,8 @@ body {
 }
 
 .whatsapp-btn img {
-    width: 35px;
-    height: 35px;
+    width: 70px;
+    height: 70px;
 }
 
 .whatsapp-btn:hover {
