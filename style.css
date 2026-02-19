@@ -121,9 +121,9 @@ body {
 .whatsapp-btn {
     position: fixed;
     bottom: 50px;  /* المسافة من تحت */
-    right: 50px;   /* المسافة من اليمين */
-    width: 70px;
-    height: 70px;
+    right: 30px;   /* المسافة من اليمين */
+    width: 10px;
+    height: 10px;
     z-index: 1000;
     border-radius: 50%;
     display: flex;
@@ -135,7 +135,7 @@ body {
 
 .whatsapp-btn img {
     width: 100px;
-    height: 100px;
+    height: 60px;
 }
 
 .whatsapp-btn:hover {
