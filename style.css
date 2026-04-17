@@ -167,13 +167,13 @@ body {
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 60px;
     z-index: 1000;
   }
   
   /* Common style for all buttons */
   .social-btn {
-    margin-right: 50px;
+    margin-right: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@ body {
     height: 50px;
     color: white;
     text-decoration: none;
-    font-size: 70px;
+    font-size: 90px;
     border-radius: 50%;
     transition: transform 0.3s, background 0.3s;
   }
